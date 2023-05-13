@@ -2,23 +2,21 @@
    
     width: 70px;
     height: 70px;
-    animation: spin 1s linear infinite;
+    animation: spin 1s linear;
+    
 }
   
 @keyframes spin {
     0% {
         transform: scale(1, 1);
       }
-      55% {
-        transform: scale(1.2, 1.2);
-      }
       100% {
-        transform: scale(1, 1);
+        transform: scale(1.5, 1.5);
       }
 }
   
 .center {
-    position: absolute;
+    position:absolute;
     top: 0;
     bottom: 0;
     left: 0;
