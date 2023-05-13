@@ -1,0 +1,33 @@
+nav{
+    overflow: hidden;
+    height: 135px;
+    border: solid white 4px;
+}
+
+nav a p{
+    text-decoration: none;
+    color: gold;
+    font-size:x-large;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding-bottom: 20px;
+
+
+    float: left;
+}
+/* .logo-img {
+    width: 240px;
+    background-color: white;
+    border:white solid;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+} */
+
+
+
+a:hover{
+    color: yellow;
+}
