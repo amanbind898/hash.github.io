@@ -1,0 +1,267 @@
+
+html,body {
+  scroll-behavior: smooth;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+.background-image{
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/22/01/41/universe-5427747_960_720.jpg");
+    /* Full height */
+  /* Center and scale the image nicely */
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index:-1;
+}
+.content{
+  position:relative;
+  z-index:1;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce ){
+  html{
+      scroll-behavior: smooth;
+  }
+}
+
+.about {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.about p{
+  color: white;
+  font-size: x-large;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.about li{
+  color: white;
+  font-size: x-large;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.about h2{
+  text-decoration: underline;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+  
+  .container{
+      padding: 20px;
+      margin: auto;
+     padding-right: 3vw;
+  
+  }
+
+  nav ul li{
+      text-decoration: none;
+      list-style: none;
+      opacity: 100%;
+      padding: 0 20px;
+      font-size: 25px;
+      border: 2px solid white;
+      border-radius: 50px;
+      font-family:'Ysabeau', sans-serif ;
+      color: white;
+  
+  }
+
+  nav ul li a{
+      text-decoration: none;
+      color: white;
+  }
+
+  nav ul li a:hover{
+      color: yellow;
+  }
+  
+  header{
+      position: sticky;
+      top:0;
+      background-color: rgba(24, 20, 20, 0.421);
+      height: 12vh;
+      border: 4px solid white;
+      border-radius: 10px;
+  
+  
+  }
+.container li{
+  opacity: 1;
+}
+  .flex{
+      display: flex;
+  }
+  .bold{
+      font-weight: bold;
+  }
+  .item-center{
+      align-items: center;
+  }
+  .justify-center{
+      justify-content: center;
+  }
+  .space-between{
+      justify-content: space-between;
+  }
+  .mx-2{
+      margin-left: 15px;
+      margin-right: 12px;
+  }
+  .footer {
+      max-width: auto;
+      margin: 0 auto;
+    }
+    
+    .footer {
+       display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: darkgray;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 10px;
+      font-family:'Ysabeau', sans-serif;
+    }
+    
+    .footer-left, .footer-right {
+      width: 50%;
+    }
+    
+    .footer-left p, .footer-right p {
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 1.5;
+    }
+    .footer-left , .footer-right  {
+      font-size: 33px;
+      color: rgb(5, 0, 0);
+    }
+    .social-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .social-links li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .social-links li:last-child {
+      margin-right: 0;
+    }
+    
+    .social-links a {
+      display: block;
+      width: 60px;
+      height: 60px;
+      line-height: 40px;
+      border-radius: 50%;
+      background-color: #fff;
+      text-align: center;
+      color: #333;
+      transition: all 0.3s ease;
+    }
+    
+    .social-links a:hover {
+      background-color: #010203;
+      color: #fff;
+    }
+
+    .event {
+      color: white;
+    }
+
+    .event h1{
+      font-size: 48px;
+      text-align: center;
+      text-decoration: underline;
+      font-family: 'Fredericka the Great', cursive;
+    }
+
+    .event h2{
+      font-size: 38px;
+      text-align: center;
+      text-decoration: underline;
+      font-family: 'Fredericka the Great', cursive;
+    }
+
+    .event p{
+      color: white;
+      font-size: 32px;
+      font-family:'Ysabeau', sans-serif ;
+    }
+
+    .event ul{
+      color: white;
+      font-size: 32px;
+      font-family:'Ysabeau', sans-serif ;
+    }
+
+    .event img{
+      border: solid white 1px;
+      border-radius: 20px;
+      transition: 0.3s all ease-in-out;
+    }
+    .event img:hover{
+    transform: scale(1.1);
+    }
+
+    .flexbold a:hover{
+      color:yellow;
+    }
+    /*image and  countdown timer */
+     /* Set the parent div to fill the entire height and width */
+  .parent-div {
+    display: flex;
+    height: 100%;
+}
+
+/* Set each child div to occupy half of the width */
+.child-div {
+    flex: 1;
+    height: 100%;
+}
+
+/* Adjust styles as needed */
+.image-container {
+    display: flex;
+    
+     
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-family: 'Cookie', cursive;
+    color: #ffffff;
+  /* padding-bottom: 135px;*/
+} 
+    #countdown {
+      border: #ffffff solid 2px;
+      border-radius: 70px;
+      font-size: 64px;
+      font-family: 'Caveat Brush', cursive;
+     
+      padding: 20px 20px 10px 10px; 
+      margin-top: 50px;
+      color: #ffffff;
+      text-shadow: 1px 0px 6px #040000;
+    }
+    
